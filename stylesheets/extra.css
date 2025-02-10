@@ -13,3 +13,8 @@
   --md-default-bg-color: #383838 !important;
   --md-default-fg-color: #ff0000;
 }
+
+/* Скрыть все навигационные ссылки в футере */
+.md-footer__inner {
+  display: none !important;
+}
